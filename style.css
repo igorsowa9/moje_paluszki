@@ -1,0 +1,163 @@
+body
+{
+	background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Didact Gothic', sans-serif;
+	/*font-family: 'Lobster', cursive;
+	font-family: 'Pacifico', cursive;*/
+	margin: 0 !important;
+	color: #423014;
+}
+
+#pasek
+{
+	position: relative;
+	width: 100%;
+	background-color: #F2D937;
+	margin-top: 50px;
+	height: 200px;
+}
+
+#pasek #logo 
+{
+	text-align: center;
+	position: relative;
+	z-index: 100;	
+}
+
+#pasek #tatry
+{
+	position: absolute;
+	margin-top: 50px;
+	width: 100%;
+    height: 100px;
+	top: 0;
+	left: 0;
+}
+
+#pasek #tatry > img
+{
+	height: 100px;
+	width: 100%;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav
+{
+	width: 100%;
+    margin: 60px auto;
+	text-align: center;
+}
+
+.option
+{
+	display: inline-block;
+	font-family: 'Lobster', cursive;
+	padding: 10px 20px;
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+	background-color: #F2D937;
+	border-radius: 6px;
+	border: 1px solid #F2D937;
+	font-size: 24px;
+	transition: all 0.2s ease-in-out;
+}
+
+.option:hover
+{
+	background-color: #F2DF68;
+	cursor: pointer;
+	border: 1px solid #423014;
+	transform: scale(1.1);
+}
+
+
+#content
+{
+	min-height: 800px;
+	margin-top: 100px;
+}
+
+#content > header > h1
+{
+	font-family: 'Lobster', cursive;
+	letter-spacing: 3px;
+	font-size: 56px;
+}
+
+#content > h2
+{
+	font-size: 28px;
+	letter-spacing: 3px;
+	border-top: 3px solid rgba(66, 48, 20,.8);
+	border-bottom: 3px solid rgba(66, 48, 20,.8);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.item
+{
+	float: left;
+	width: 100%;
+	border-top: 1px solid rgba(173, 169, 147,.5);
+}
+
+.item:first-child
+{
+	border-top: none;
+}
+
+.item:last-child
+{
+	margin-bottom: 40px;
+}
+
+.itemL
+{
+	float: left;
+	width: 30%;
+	margin: 20px 0px;
+	transition: all 0.2s ease-in-out;
+	text-align: center;
+}
+
+.itemL:hover
+{
+	transform: scale(0.95);
+}
+
+.itemR
+{
+	float: left;
+	width: 70%;
+	text-align: left;
+	margin-top: 50px;
+}
+
+.itemR > header > h3
+{
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+.item_desc
+{
+	font-size: 20px;
+}
+
+#footer
+{
+	clear: both;
+	background-color: #F2D937;
+	min-height: 100px;
+}
+
+
