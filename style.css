@@ -79,6 +79,12 @@ body
 	transform: scale(1.1);
 }
 
+.option a:link, a:visited
+{
+	text-decoration: none;
+	color: #423014
+}
+
 
 #content
 {

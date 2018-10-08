@@ -1,4 +1,4 @@
-﻿<?php include("a_config.php");?>
+<?php include("a_config.php");?>
 
 <!DOCTYPE HTML>
 <html lang="pl">
@@ -24,7 +24,7 @@
 		<div id="content">
 		
 		
-			Kontent strony główej
+			Kontent strony O nas
 				
 			
 		</div>
